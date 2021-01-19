@@ -61,10 +61,11 @@ vscode에서
 
 
 #### 깃 에러
-   ! [rejected]        main -> main (fetch first)<br/>
-  error: failed to push some refs to 'https://github.com/TEAMLAB-Lecture/text-processing-jaeyeolso.git'<br/>
-  git pull origin main <br/>
-깃에서 에러가 났는데 정지훈님이 해결해주셨다.
+    ! [rejected]        main -> main (fetch first)<br/>
+    error: failed to push some refs to 'https://github.com/TEAMLAB-Lecture/text-processing-jaeyeolso.git'<br/>
+    
+    git pull origin main 로 해결<br/>
+깃에서 에러가 났는데 정지훈님이 해결해주셨다. 오래전에 깃 썼었어서 기억이 잘 안 난다..
 
 
 
