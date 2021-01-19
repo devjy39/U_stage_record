@@ -30,13 +30,14 @@
 
 #### str.capitalize() 앞글자만 대문자로
 
-
-  def spam(eggs):
-    eggs.append(1) # 기존 객체의 주소값에 [1] 추가
-    eggs = [2, 3] # 새로운 객체 생성
-  ham = [0]
-  spam(ham)
-  print(ham) # [0, 1]
+<br/>
+call by ref 와 value
+      def spam(eggs):
+        eggs.append(1) # 기존 객체의 주소값에 [1] 추가
+        eggs = [2, 3] # 새로운 객체 생성
+      ham = [0]
+      spam(ham)
+      print(ham) # [0, 1]
 
 #- 파이썬의 가장 큰 특징 – dynamic typing 
 # 처음 함수를 사용하는 사용자가 interface를 알기 어렵다는 단점이 있음
