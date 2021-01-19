@@ -1,7 +1,7 @@
 1주차 2일째 오늘도 파이썬 문법을 배웠다.
 
 
-# 고차원 배열의 깊은 복사 방법
+### 고차원 배열의 깊은 복사 방법
   import copy
   var = copy.deepcopy(list)
 
