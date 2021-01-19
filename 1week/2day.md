@@ -38,45 +38,45 @@
     spam(ham)<br/>
     print(ham) # [0, 1]<br/>
 
-#- 파이썬의 가장 큰 특징 – dynamic typing 
-# 처음 함수를 사용하는 사용자가 interface를 알기 어렵다는 단점이 있음
-# python 3.5 버전 이후로는 PEP 484에 기반하여 type hints 기능 제공
-  def do_function(var_name: var_type) -> return_type:
-  pass
-  def type_hint_example(name: str) -> str:
-  return f"Hello, {name}"
+### 파이썬의 가장 큰 특징 – dynamic typing 
+- 처음 함수를 사용하는 사용자가 interface를 알기 어렵다는 단점이 있음
+- python 3.5 버전 이후로는 PEP 484에 기반하여 type hints 기능 제공
+    def do_function(var_name: var_type) -> return_type:
+        pass
+    def type_hint_example(name: str) -> str:
+        return f"Hello, {name}"
 
-## 규율에 맞는 clean code인지 확인하는법
+### 규율에 맞는 clean code인지 확인하는법
 vscode에서 
- docstring ctrl+shift+p -> docstring
+    docstring ctrl+shift+p -> docstring
 
 터미널에서
-  flake8 **.py 파이썬 소스가 pep8 like에 맞는지 확인
+    flake8 **.py 파이썬 소스가 pep8 like에 맞는지 확인
 
-  black **.py 알아서 소스를 pep8 like 수준에 맞게 고쳐줌
+    black **.py 알아서 소스를 pep8 like 수준에 맞게 고쳐줌
 
-#PEP최신문서에 의한 포메팅방법
--f"var : {var}" 을 주로사용
--ex)) print(f'{"hi":*>20} !#$ {0.99555:.2f}')
+# PEP최신문서에 의한 포메팅방법
+    f"var : {var}" 을 주로사용<br/>
+    ex)) print(f'{"hi":*>20} !#$ {0.99555:.2f}')
 
 
-# 깃 에러
-   ! [rejected]        main -> main (fetch first)
-  error: failed to push some refs to 'https://github.com/TEAMLAB-Lecture/text-processing-jaeyeolso.git'
-  git pull origin main 
+#### 깃 에러
+   ! [rejected]        main -> main (fetch first)<br/>
+  error: failed to push some refs to 'https://github.com/TEAMLAB-Lecture/text-processing-jaeyeolso.git'<br/>
+  git pull origin main <br/>
 깃에서 에러가 났는데 정지훈님이 해결해주셨다.
 
 
 
 
-#과제 테스트케이스 실행할 때
+### 과제 테스트케이스 실행할 때
 
-  if __name__ == "__main__": 
-      unittest.main()
+    if __name__ == "__main__": 
+        unittest.main()
     
-  or 
+    or 
 
-  python -m unittest
+    python -m unittest  (터미널)
 
 
-## 2일차.. 아직 할만하다.
+### 2일차.. 아직 할만하다.
