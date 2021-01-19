@@ -2,8 +2,8 @@
 
 
 ### 고차원 배열의 깊은 복사 방법
-  import copy
-  var = copy.deepcopy(list)
+    import copy
+    var = copy.deepcopy(list)
 
 # 파이썬 포멧팅 원칙 지켜야될 것들★
 -함수사이는 2줄씩 띄운다
