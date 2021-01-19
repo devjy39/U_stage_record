@@ -31,7 +31,7 @@
 #### str.capitalize() 앞글자만 대문자로
 
 <br/>
-###call by ref 와 value
+### call by ref 와 value
         def spam(eggs):<br/>
         eggs.append(1) # 기존 객체의 주소값에 [1] 추가<br/>
         eggs = [2, 3] # 새로운 객체 생성<br/>
