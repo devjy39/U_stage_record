@@ -34,9 +34,9 @@
     def spam(eggs):<br/>
         eggs.append(1) # 기존 객체의 주소값에 [1] 추가<br/>
         eggs = [2, 3] # 새로운 객체 생성<br/>
-        ham = [0]<br/>
-        spam(ham)<br/>
-        print(ham) # [0, 1]<br/>
+    ham = [0]<br/>
+    spam(ham)<br/>
+    print(ham) # [0, 1]<br/>
 
 #- 파이썬의 가장 큰 특징 – dynamic typing 
 # 처음 함수를 사용하는 사용자가 interface를 알기 어렵다는 단점이 있음
