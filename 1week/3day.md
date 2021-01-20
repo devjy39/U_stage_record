@@ -55,13 +55,13 @@
 
 #### dict comprehension 응용
     { v : i for i, v in enumerate(words)} 
-  
+ <br/><br/> 
 #### zip함수 두 list를 묶어서 하나씩 출력해주는 함수
     list(enumerate(zip(l1,l2)))
     [(0, ('a', 'w')), (1, ('b', 'x')), (2, ('c', 'y')), (3, ('e', 'z'))]
   
 ##### lambda,map,.reduce은 권장하지 않는 추세 그러나 많이 씀
-
+<br/><br/>
 ### 제네레이터함수 메모리와 시간절약 가능
     def generator_list(value):
         result = []
@@ -73,12 +73,12 @@
         print("fine seven")
     #print(generator_list(50))
     sys.getsizeof(generator_list(50))
-
+<br/><br/>
 #### 함수 밖에서 함수 안의 반복문에 접근(?)이 될 수 있다. 상당히 효율
 
 ### 제네레이터 만드는법 * 큰 데이터, 파일데이터, 루프중간에 break 시 주로 사용
     gen_ex = (n**2 for n in range(100)) 
-  
+  <br/><br/>
 ### 튜플형태로 들어가는 가변인자 asterisk   *args    => tuple type으로 들어가는 가변인자들
 ### **은 dict타입으로 들어감                **kwards => dict type일 경우
 
