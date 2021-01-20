@@ -1,4 +1,4 @@
-## 자료구조와 pythonic code
+## 1week 3day 자료구조와 pythonic code
 
 #### set = {}  의 연산
 
@@ -45,7 +45,7 @@
 
 ### *import pprint  #밑으로출력 해주는 pprint.pprint()
 
-
+<br/><br/>
 # pythonic code
 -파이썬 권장 규칙같은 것이다 보기도 좋고 효율도 좋으니 쓰는게 좋다.
  
