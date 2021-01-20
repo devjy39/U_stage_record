@@ -11,26 +11,26 @@
 
 ### collections 
 
-  def general_list():
-      just_list = []
-      for i in range(100):
-          for j in range(100):
-              just_list.append(i)
-              just_list.pop()
-  %timeit general_list()
+  def general_list(): <br/>
+      just_list = []<br/>
+      for i in range(100):<br/>
+          for j in range(100):<br/>
+              just_list.append(i)<br/>
+              just_list.pop()<br/>
+  %timeit general_list()<br/>
   
-  실행결과 : 2.41 ms ± 5.89 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+  실행결과 : 2.41 ms ± 5.89 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)<br/>
 
-  from collections import deque
-  def deque_list():
-      deque_list = deque()
-      for i in range(100):
-          for j in range(100):
-              deque_list.append(i)
-              deque_list.pop()
-  %timeit deque_list()
+  from collections import deque<br/>
+  def deque_list():<br/>
+      deque_list = deque()<br/>
+      for i in range(100):<br/>
+          for j in range(100):<br/>
+              deque_list.append(i)<br/>
+              deque_list.pop()<br/>
+  %timeit deque_list()<br/>
 
-  실행결과 : 683 µs ± 6.48 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)
+  실행결과 : 683 µs ± 6.48 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)<br/>
 ### deque와 list 속도 차이;; 3배 이상 난다.
 ### 보다시피 같은 연산인데도 차이가 많이 난다. 
 
