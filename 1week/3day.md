@@ -31,9 +31,9 @@
     %timeit deque_list()<br/>
 
   실행결과 : 683 µs ± 6.48 µs per loop (mean ± std. dev. of 7 runs, 1000 loops each)<br/>
--deque와 list 속도 차이;; 3배 이상 난다.
+-deque와 list 속도 차이;; 3배 이상 난다.<br/>
 -보다시피 같은 연산인데도 차이가 많이 난다. 
-<br/>
+<br/><br/><br/>
 
     from collections import defaultdict
     dd = defaultdict(lambda : 0)
