@@ -46,7 +46,7 @@
 ### *import pprint  #밑으로출력 해주는 pprint.pprint()
 
 
-## pythonic code
+# pythonic code
 -파이썬 권장 규칙같은 것이다 보기도 좋고 효율도 좋으니 쓰는게 좋다.
  
 ### list comprehension 리스트 만들때 편하다. 속도도 더 빠르다.
