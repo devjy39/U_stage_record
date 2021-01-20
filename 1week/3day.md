@@ -11,13 +11,13 @@
 
 ### collections 
 
-  def general_list(): <br/>
-      just_list = []<br/>
-      for i in range(100):<br/>
-          for j in range(100):<br/>
-              just_list.append(i)<br/>
-              just_list.pop()<br/>
-  %timeit general_list()<br/>
+    def general_list(): <br/>
+        just_list = []<br/>
+        for i in range(100):<br/>
+            for j in range(100):<br/>
+                just_list.append(i)<br/>
+                just_list.pop()<br/>
+    %timeit general_list()<br/>
   
   실행결과 : 2.41 ms ± 5.89 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)<br/>
 
