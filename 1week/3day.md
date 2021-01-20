@@ -43,7 +43,7 @@
     c = Counter('helloworld')
 ### Counter({'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}) 말그대로 세주는 함수 단어세기에 좋음
 
-### import pprint  #밑으로출력 해주는 pprint.pprint()
+### *import pprint  #밑으로출력 해주는 pprint.pprint()
 
 
 ## pythonic code
