@@ -19,7 +19,7 @@
 
 #### merge
     pd.merge(df_a,df_b, on="_id" how = 'inner' or 'outer' or 'left' or 'right')
-<img src=merge.PNG>
+<img src=merge.png>
 
 #### concat 데이터를 붙이는 연산
     pd.concat([df_a,df_b], axis =  )
