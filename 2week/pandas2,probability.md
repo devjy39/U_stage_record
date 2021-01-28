@@ -18,8 +18,8 @@
     df_phone["date"] = df_phone["date"].apply(dateutil.parser.parse, dayfirst=True)
 
 #### merge
-<img src=merge.PNG>
     pd.merge(df_a,df_b, on="_id" how = 'inner' or 'outer' or 'left' or 'right')
+<img src=merge.PNG>
 
 #### concat 데이터를 붙이는 연산
     pd.concat([df_a,df_b], axis =  )
@@ -41,6 +41,7 @@
 - 독립적인 샘플링이 필요하다.
 - 적분 범위 구간의 길이로 적분값을 나누면 기대값을 계산하는 것과 같은 몬테카를로 방법을 사용할 수 있다.
 
+#### 소스
     import numpy as np
 
     def mc_int(fun, low, high, sample_size = 100, repeat= 10):
@@ -63,6 +64,7 @@
 - 몬테카를로 방법을 활용하여 원주율에 대한 근사값을 어떻게 구할 수 있을까.
 - x (0~1) y (0~1) 그래프의 너비를 구하고 4배 해주면 반지름1인 원의 너비가 된다. 
 
+#### 
     def find_pi(fun, low, high, sample_size = 100000, repeat= 100):
         int_len = np.abs(high-low)
         stat = []
