@@ -43,7 +43,7 @@
         sns.regplot(x="total_bill", y="tip", data=tips)
  <img src=regplot.png>
  
-### hue키워드! hue="column" hue기준으로 데이터를 나눠서 보여준다.
+### ★hue키워드! hue="column" hue기준으로 데이터를 나눠서 보여준다.
         sns.countplot(x="smoker", hue="time", data=tips)
 <img src=hue.png>
 
