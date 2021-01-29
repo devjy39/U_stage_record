@@ -37,6 +37,12 @@
     plt.show()
 <img src=barc.png>
 
+#### seaborn
+
+#### scatter에 따른 선형 그래프를 보여줌
+        sns.regplot(x="total_bill", y="tip", data=tips)
+        
+### hue키워드! hue="column" hue기준으로 데이터를 나눠서 보여준다.
 
 #### 통계적모델링
 - 적절한 가정 위에서 확률분포를 추정하는 것
