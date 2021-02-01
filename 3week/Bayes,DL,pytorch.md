@@ -1,6 +1,6 @@
 #### 베이즈정리
 - 조건부확률을 이용해 정보를 갱신하는 방법
-<img src=image/bayes.png>
+<img src=image/bayes.PNG>
 
 발병률 10%인 A병이 있다.
 병에 걸렸을때 검진이 될 확률99% 
@@ -44,16 +44,16 @@ P(A|D'') = 0.917 X 0.99 / 0.909 = 0.998
 - algorithm : loss를 최소화 하는 파라미터를 어떻게 조정할 것인가.
 
 #### Beyond Linear Neural Networks
-<img src=image/nonlinear.png>
+<img src=image/nonlinear.PNG>
 weight를 계산할 때 항상 hidden layer에 Nonlinear transform이 필요함을 잊지 말자.
 #### Activationfunctions,  Nonlinear transform 해주는 함수들
-<img src=image/nonf.png>
+<img src=image/nonf.PNG>
 
 #### Multi-Layer Perceptron
 - MSE는 항상 도움이 되지 않을 수도 있다. 
 - 큰 target data에 에러가 있을 때 그 데이터를 맞추려다 nn가 전반적으로 망가질 수 있다.
 - 크로스엔트로피 Loss가 분류문제를 푸는데 최적인가?
-<img src=image/loss.png>
+<img src=image/loss.PNG>
 결국 다양한 상황에 맞는 loss function이 있고 이유를 찾아야한다.
 
 #### Pytorch
