@@ -1,4 +1,4 @@
-### 베이즈정리
+## 베이즈정리
 - 조건부확률을 이용해 정보를 갱신하는 방법
 <img src=image/bayes.PNG>
 
@@ -57,7 +57,7 @@ weight를 계산할 때 항상 hidden layer에 Nonlinear transform이 필요함�
 <img src=image/loss.PNG>
 결국 다양한 상황에 맞는 loss function이 있고 이유를 찾아야한다.
 
-### Pytorch
+## Pytorch
 - keras와 tensorflow는 지금은 합쳐졌다. - google
 - facebook의 pytorch (tensor객체, 자동미분, 다양한 ML함수와 모델!)
 
