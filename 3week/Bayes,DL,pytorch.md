@@ -45,7 +45,8 @@ Q)앞서 검진을 두 번 받은 사람이 또 검진을 받고 진짜 A질병�
 
 #### Beyond Linear Neural Networks
 <img src=image/nonlinear.PNG>
-weight를 계산할 때 항상 hidden layer에 Nonlinear transform이 필요함을 잊지 말자.
+weight를 계산할 때 항상 hidden layer에 Nonlinear transform이 필요함을 잊지 말자.<br/>
+
 #### Activationfunctions,  Nonlinear transform 해주는 함수들
 <img src=image/nonf.PNG>
 
