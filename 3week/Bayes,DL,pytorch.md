@@ -57,7 +57,7 @@ weight를 계산할 때 항상 hidden layer에 Nonlinear transform이 필요함�
 <img src=image/loss.PNG>
 결국 다양한 상황에 맞는 loss function이 있고 이유를 찾아야한다.
 
-#### Pytorch
+### Pytorch
 - keras와 tensorflow는 지금은 합쳐졌다. - google
 - facebook의 pytorch (tensor객체, 자동미분, 다양한 ML함수와 모델!)
 
@@ -100,4 +100,4 @@ numpy에서 쓰이는 함수들을 대부분 지원해준다.
 
 #### __new__  : class의 초기화
 
-torch를 배우니까 이제 제대로 딥러닝을 시작한 것 같다..~
+torch를 배우니까 이제 먼가 딥러닝을 하는 것 같다..
