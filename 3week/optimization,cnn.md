@@ -115,7 +115,7 @@ adagrad에서 stepsize를 추가한 방법
 
 
 <img src=image/convbackfin.PNG>
-#
+<br/>
 - 다시 커널을 통해 grad가 전달된다.
 - 커널에는 미분값 델타에 입력값 xn을 곱해서 전달한다.
 - 각 커널에 들어오는 grad들을 더하면 결국 conv연산과 같다.
