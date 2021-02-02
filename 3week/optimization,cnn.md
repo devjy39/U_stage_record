@@ -14,7 +14,7 @@
 - 탄착군을 생각하면 좋다.
 - vias를 낮추게되면 variance가 높아질 가능성이 크고
 - variance를 많이 낮추면 vias가 높아진다.
-<img src=image/viasvar.PNG>
+<img src=image/biasvar.PNG>
 
 #### Bootstrapping
 - 랜덤 샘플링을 통해 training data를 늘리는 방법이다.
