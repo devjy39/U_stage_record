@@ -53,14 +53,14 @@ conv layer + pooling layer + fully connected
 #### DenseNet
 - denseblock 으로 채널을 늘리고 1by1 conv로 줄이고 반복 
 - 간단한 분류에서 많이 쓰인다. concatenation 
-<img src=image/dense.PNG>
+<img src=image/dense.png>
 
 ## Semantic segmentation:
 - Fully Convolutional Network를 사용
 - 끝에서 fully connected layer를 쓰지 않는다.
 <img src=image/convlize.PNG>
-#### 그 결과 ooutput에서 heap map으로 classification이 가능해짐
-<img src=image/heatmap.PNG>
+* 그 결과 ooutput에서 heap map으로 classification이 가능해짐
+<img src=image/heatmap.png>
 
 ### YOLO (with Faster R-CNN)
 - faster r-cnn : rpn + fast r-cnn
