@@ -1,6 +1,7 @@
 ## CNN
 ### 일반적인 CNN의 구조
 <img src=image/CNNnet.PNG>
+<br/>
 #### r
 - conv layer 
 - pooling layer :
