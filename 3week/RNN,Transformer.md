@@ -64,7 +64,7 @@
 - 더 많은 단어들 간 dependency를 모델링할 수 있다.
 - 하지만 feed-forward layer은 오직 한 개의 행렬만을 input으로 받을 수 있다. 
 - 모든 head를 이어 붙여서 하나의 행렬로 만들어버리고, 그다음 하나의 또 다른 weight 행렬인 W0을 곱해서 1개의 output을 낸다.
-<img src=image/mlh.PNG>
+<img src=image/mhl.png>
 
 <img src=image/decoder.png>
 encoder -> decoder 보내는 데이터 = `key, value`
