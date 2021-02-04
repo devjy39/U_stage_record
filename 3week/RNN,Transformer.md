@@ -5,7 +5,7 @@
 - 길이가 가변적인 데이터를 다룰 수 있는 모델이 필요.
 - RNN은 잠재변수를 복제해서 다음 시점에 활용한다.
 <img src=image/RNN.PNG>
-- RNN의 단점 Long term dependency 오래된 과거 데이터의 활용이 힘들다.
+`RNN의 단점` :Long term dependency 오래된 과거 데이터의 활용이 힘들다.
 
 #### bptt
 - h(t+1) 잠재변수와 O(t+1) 출력을 입력과 이전 시점 h(t)잠재변수에 전달된다.
@@ -20,8 +20,7 @@
 
 `latent autoregressive model` : hidden state 과거의 정보를 요약하고 있는 정보
 
-
-### Long Short Term Memory
+### `LSTM` Long Short Term Memory
 
 
 
