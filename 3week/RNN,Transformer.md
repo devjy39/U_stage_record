@@ -40,7 +40,7 @@
 - INPUT -> ENCODER -> DECODER -> OUTPUT
 - ENCODER = self-attendtion + feed forward neural network
 - self-attendtion : n개의 벡터를 나머지 벡터도 고려해서 n개의 출력이 나옴. 다른 벡터와 관계성을 생각한다.
-<img src=image/transf.png>
+<img src=image/transf.PNG>
 
 
 ### Encoder
@@ -64,38 +64,9 @@
 - 더 많은 단어들 간 dependency를 모델링할 수 있다.
 - 하지만 feed-forward layer은 오직 한 개의 행렬만을 input으로 받을 수 있다. 
 - 모든 head를 이어 붙여서 하나의 행렬로 만들어버리고, 그다음 하나의 또 다른 weight 행렬인 W0을 곱해서 1개의 output을 낸다.
-<img src=image/mlh.png>
+<img src=image/mlh.PNG>
 
 <img src=image/decoder.png>
 encoder -> decoder 보내는 데이터 = `key, value`
 
 최근에는 Transformer가 자연어 처리 분야 말고도 vision data 처리에도 활용되고 있다.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
