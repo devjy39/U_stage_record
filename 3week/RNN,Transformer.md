@@ -5,6 +5,7 @@
 - 길이가 가변적인 데이터를 다룰 수 있는 모델이 필요.
 - RNN은 잠재변수를 복제해서 다음 시점에 활용한다.
 <img src=image/RNN.png width="70%" height="70%">
+ 
 `RNN의 단점` :Long term dependency 오래된 과거 데이터의 활용이 힘들다.
 
 #### bptt
