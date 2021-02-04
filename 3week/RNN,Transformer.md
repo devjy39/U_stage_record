@@ -4,7 +4,7 @@
 - 하지만 모든 과거 데이터가 필요하진 않음
 - 길이가 가변적인 데이터를 다룰 수 있는 모델이 필요.
 - RNN은 잠재변수를 복제해서 다음 시점에 활용한다.
-<img src=image/RNN.png>
+<img src=image/RNN.png width="70%" height="70%">
 `RNN의 단점` :Long term dependency 오래된 과거 데이터의 활용이 힘들다.
 
 #### bptt
@@ -51,7 +51,7 @@
 - score -> queries와 나머지 n개의 keys벡터를 내적 -> 나머지 단어와 관계
 - divide by 8 queries와 keys벡터의 차원의 루트로 나누고 그 값을 softmax한다.
 - 최종적으로 output은 value벡터의 weighted sum.
-<img src=image/encoder.png>
+<img src=image/encoder.png width="70%" height="70%">
 
     scores = Q.matmul(K.transpose(-2,-1)) / np.sqrt(d_K)
     attention = F.softmax(scores,dim=-1)
@@ -64,9 +64,9 @@
 - 더 많은 단어들 간 dependency를 모델링할 수 있다.
 - 하지만 feed-forward layer은 오직 한 개의 행렬만을 input으로 받을 수 있다. 
 - 모든 head를 이어 붙여서 하나의 행렬로 만들어버리고, 그다음 하나의 또 다른 weight 행렬인 W0을 곱해서 1개의 output을 낸다.
-<img src=image/mhl.png>
+<img src=image/mhl.png width="90%" height="90%">
 
-<img src=image/decoder.png width="50%" height="50%">
+<img src=image/decoder.png width="60%" height="60%">
 encoder -> decoder 보내는 데이터 = `key, value`
 
 최근에는 Transformer가 자연어 처리 분야 말고도 vision data 처리에도 활용되고 있다.
