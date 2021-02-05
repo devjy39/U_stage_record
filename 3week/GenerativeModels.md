@@ -1,10 +1,6 @@
 #### Generative Models
-- g
-* r
-1. fwe
-2. fgew
-
-
+1. 4
+ 2.3
 
 
 
