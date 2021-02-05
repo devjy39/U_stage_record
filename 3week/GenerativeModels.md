@@ -14,6 +14,7 @@
 <img src=image/VAE.PNG>
 <br/>
 <img src=image/ELBO.PNG>
+ 
 - VAE로 학습하는 `KEY Idea`
     - 타겟 데이터가 없으므로 Objective를 계산할 수 없는데 ELBO를 계산해 키움으로써 Objective를 줄이는 것이다.
 
