@@ -2,7 +2,7 @@
 - 생성모델
 - <strong>Explicit model</strong> : input에 대한 확률값을 얻어낼 수 있는 모델
 - <strong>Implicit model</strong> : 단순히 Generation만 하는 모델
-- <strong>Auto regresive model</strong> 자기회귀 : 조건부 확률을 이용해 파라미터 수를 2ⁿ에서 2n-1 로 줄이는 방법을 활용하였다.
+- <strong>Autoregresive model</strong> 자기회귀 : 조건부 확률을 이용해 파라미터 수를 2ⁿ에서 2n-1 로 줄이는 방법을 활용하였다.
 <img src=image/independence.PNG>
 
 ### Variational Auto-encoder
