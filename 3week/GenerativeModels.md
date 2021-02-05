@@ -1,3 +1,3 @@
 #### Generative Models
 - g
-    -gh
+    - gh
