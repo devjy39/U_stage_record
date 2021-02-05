@@ -1,6 +1,6 @@
 #### Generative Models
 
-- <ins>Explicit model</ins> : input에 대한 확률값을 얻어낼 수 있는 모델
+- <strong>Explicit model</strong> : input에 대한 확률값을 얻어낼 수 있는 모델
 - <ins>Implicit model</ins> : 단순히 Generation만 하는 모델
 Auto regresive model
 
