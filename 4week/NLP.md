@@ -32,7 +32,7 @@
     - 수식 -> 입,출력 워드의 내적값을  계산값의 log를 취해 두 값이 가까워지도록 하는  Loss function을 사용했다.
  <img src=image/glove.PNG>
   
-- 학습결과 man과 woman의 word embedding
+- <strong>학습결과</strong> man과 woman의 word embedding
  <img src=image/manwoman.png>
  
 ### Bag of Words
