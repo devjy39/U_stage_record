@@ -38,6 +38,7 @@
 
 #### - ex) k= 2인 beam search
 <img src=image/beam.PNG>
+ 
 1. 예측값이 높은 2개의 word를 뽑는다.
 2. log를 취한 확률값은 -를 갖는다. 확률이(0~1)이기때문
 3. 그 다음 예측단어와 log확률을 더해서 값이 나옴.
