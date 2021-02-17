@@ -35,8 +35,8 @@
 - socore = log버전의 확률값을 더하는 식
 - 모든 경우의 수를 다 고려하는 것은 아니지만 훨씬 효율적
 - <img src=image/beamscore.PNG>
-
-#### - ex) k= 2인 beam search
+ 
+#### ex) k= 2인 beam search
 <img src=image/beam.PNG>
  
 1. 예측값이 높은 2개의 word를 뽑는다.
