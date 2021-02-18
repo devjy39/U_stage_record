@@ -23,7 +23,7 @@
 - 하지만 작은 경우는 좀 더 고르게 퍼지게 된다.
 
 ## Multihead attention
-<img src=image/mulhead.png>
+<img src=image/mulhead.PNG>
  
 - 서로 다른 측면의 정보를 병렬적으로 뽑고 concat해서 서로 다른 정보들을 상호 보완적으로 얻는다.
 - 그 후 Linear변환으로 차원을 줄여줌
