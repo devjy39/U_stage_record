@@ -3,7 +3,7 @@
 ### self attention 모듈
 - 입력값 x 벡터는 자기 자신 or 주변 벡터와 내적을 수행하고 나온 유사도 -> softmax로 가중평균을 구해서 encoding vector로 구한다.
 - 보통 자기 자신과의 내적값이 높게나오게 된다.
-<img src=image/qkv.png>
+<img src=image/qkv.png width=width/2 height = height/2>
  
 `Queries vector` :주어진 벡터들 중 어느 벡터를 선별적으로 가져올지 기준이 되는 벡터
 `Keys vector`: queries와 내적하는 재료벡터, 어느 벡터가 유사도가 높은지 결정 해주는 역할
@@ -72,5 +72,5 @@
 - BLEU Score는 어순이 달라도 같은 의미일 때 낮은 점수를 부여해서 일반적으로 점수대비 성능은 높다.
 - EX) 나는 열심히 공부를 한다 =(같은 의미)= 나는 공부를 열심히 한다.
 
-# 결론: Transformer 성능 좋음
+## 결론: Transformer 성능 좋음
 
