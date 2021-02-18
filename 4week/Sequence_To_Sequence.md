@@ -1,15 +1,15 @@
 ## Sequence To Sequence
 - many to many 구조의 RNN : INPUT : word단위 문장 --> OUTPUT : word단위 문장
 - 아무리 LSTM방식을 사용 한다고 한들 멀리있는 word의 정보는 약해진다.
-- 그래서 RNN과 Attention을 결합한 `sequence to sequence with Attension`을 사용한다.
+- 그래서 RNN과 Attention을 결합한 `sequence to sequence with Attention`을 사용한다.
 
-## sequence to sequence with Attension
+## sequence to sequence with Attention
 - Encoder -> Decoder -> Attention scores 구조
 - encoder를 거치고 나온 Decoder h벡터를 이전 h(1~n)벡터와 내적해서 attention socres에 넣는다.
 - 그리고 그 값들을 softmax F으로 확률값을 얻는다. 그럼 encoder hiddenstate vector들에게 가중치를 부여할 수 있음
-- attension output은 가중평균 확률값 으로 context vector라고도불림
+- attention output은 가중평균 확률값 으로 context vector라고도불림
 - input은 decoder h와 encoder h(1~n)
-- 그리고 attension output과 decoder h를 input하면 다음 단어 예측값 y가 output
+- 그리고 attention output과 decoder h를 input하면 다음 단어 예측값 y가 output
 - 예측값 y와 decoder h1을 input으로 decoder h2가 나온다.
 <img src=image/sts.png>
  
@@ -18,11 +18,11 @@
 - 학습 초반엔 `teacher forcing`을 사용하여 학습하고 후반부엔 예측값 넣어주는 식으로 학습하거나
 - 정답데이터와 예측데이터를 적절히 나누어서 넣기도 함. 
 
-### attension 모듈
+### attention 모듈
 <img src=image/dot.png>
  
 1. 내적
-2. attension score를 구하는 general 방식 내적연산 중간에 가중치에 해당하는 벡터를 넣어 학습한다. 
+2. attention score를 구하는 general 방식 내적연산 중간에 가중치에 해당하는 벡터를 넣어 학습한다. 
 3. concat 방식 concat-> wa-> tanh비선형변환 -> v(a)선형변환(다시scala)
 - grad vanishing 해결가능
 
