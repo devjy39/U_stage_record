@@ -30,7 +30,7 @@
 <img src=image/mha.PNG>
  
 ### Transformer vs RNN
-<img src=image/versa.PNG>
+<img src=image/versa.png>
  
 <strong>Transformer는 RNN보다</strong>
 - 학습처리 속도는 빠르다 -> RNN은 재귀적이라 각 Time Step을 병렬화가 불가능 함.
@@ -43,7 +43,7 @@
 - `Layer Normalization`
   - (vector - 평균) /분산 
   - affine transformation
-<img src=image/affine.PNG>
+<img src=image/affine.png>
 
 ### Positional Encoding
 - 기존 Encoding은 교환법칙이 성립하여 순서를 무시하고 output값이 나오는 문제가 있음.
@@ -62,7 +62,7 @@
 - linear(차원 변환) -> Softmax
 
 ### Masked Self-Attention
-<img src=image/mask.png>
+<img src=image/mask.PNG>
  
 - attention에서 뒤에서 나오는 단어에 대한 가중치를 0으로 만들고 이후 value벡터와 가중평균을 내는방식
 
