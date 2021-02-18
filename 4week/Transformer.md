@@ -3,7 +3,7 @@
 ### self attention 모듈
 - 입력값 x 벡터는 자기 자신 or 주변 벡터와 내적을 수행하고 나온 유사도 -> softmax로 가중평균을 구해서 encoding vector로 구한다.
 - 보통 자기 자신과의 내적값이 높게나오게 된다.
-<img src=image/qkv.png width=width/2 height = height/2>
+<img src=image/qkv.png width=500 height = 400>
  
 `Queries vector` :주어진 벡터들 중 어느 벡터를 선별적으로 가져올지 기준이 되는 벡터
 `Keys vector`: queries와 내적하는 재료벡터, 어느 벡터가 유사도가 높은지 결정 해주는 역할
