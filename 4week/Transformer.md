@@ -29,7 +29,7 @@
 - 그 후 Linear변환으로 차원을 줄여줌
 <img src=image/mha.PNG>
  
-### Transformer vs RNN
+## Transformer vs RNN
 <img src=image/versa.png>
  
 <strong>Transformer는 RNN보다</strong>
@@ -37,7 +37,7 @@
 - 메모리 요구량이 많음 -> 모든 head의 쿼리와 키의 모든 내적값을 저장하고 있어야 하기때문
 
 
-### Add & Norm 
+## Add & Norm 
 - `Add` : residual connection 
   - vector를 요소별로 더함
 - `Layer Normalization`
@@ -45,7 +45,7 @@
   - affine transformation
 <img src=image/affine.png>
 
-### Positional Encoding
+## Positional Encoding
 - 기존 Encoding은 교환법칙이 성립하여 순서를 무시하고 output값이 나오는 문제가 있음.
 - 해결책
 <img src=image/position.png>
@@ -53,15 +53,15 @@
 - 위치에 따라 구별할 수 있는 벡터 -> sin cos같은 주기함수를 이용
 - 지문처럼 고유의 위치가 나온다.
 
-#### Learning Rate Scheduler : adam처럼 유동적인 LR을 사용하는 방법<br/>
+### Learning Rate Scheduler : adam처럼 유동적인 LR을 사용하는 방법<br/>
  
-### Decoder의 Multi-Head Attention
+## Decoder의 Multi-Head Attention
 <img src=image/decoder.png>
  
 - encoder의 Value ,Key vector를 받아서 Decoder의 Query벡터와 Multi-Head Attention연산
 - linear(차원 변환) -> Softmax
 
-### Masked Self-Attention
+## Masked Self-Attention
 <img src=image/mask.PNG>
  
 - attention에서 뒤에서 나오는 단어에 대한 가중치를 0으로 만들고 이후 value벡터와 가중평균을 내는방식
