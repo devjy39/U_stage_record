@@ -67,7 +67,7 @@
 - 기존의 큰 모델들의 모델사이즈는 줄이고 학습시간도 빠르게 만드는 pre-trained task 제안
 -	선형변환 layer를 추가 ->  공통적으로 선형변환하는 matrix 사용 -> 파라미터 수 상당히 줄음
 - Self-supervised Learning을 위한 Lite BERT
-<img src=image/ALBERT.png>
+<img src=image/ALBERT.PNG>
  
 - 차원 변환을 위한 벡터를 추가해서 파라미터 수를 혁신적으로 줄였다.
 - EX) V x H 가 [100 x 500] 을 10의 dimension으로 줄인다고 가정하면 [100 x 15 + 15 x 500]만큼의 파라미터가 필요하다
