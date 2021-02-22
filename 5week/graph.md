@@ -9,7 +9,7 @@
 - 정점 간의 연결은 서로 독립적(Independent)입니다
 
 - 에르되스-레니 랜덤 그래프의 확률
-<img src=image/erdos.png>
+<img src=image/erdos.PNG>
 
 ## 작은 세상 효과
 - 임의의 두 사람을 골랐을 때, 몇 단계의 지인을 거쳐 연결되어 있을까?
