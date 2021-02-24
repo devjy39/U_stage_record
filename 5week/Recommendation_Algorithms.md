@@ -1,4 +1,4 @@
-## 군집 탐색 Community Detection
+# 군집 탐색 Community Detection
 - 배치 모형(Configuration Model)
 <img src=image/Configuration.png width=600 height = 200> 
 1. 연결성을 보존한 상태에서
