@@ -15,8 +15,8 @@
 
 ### Girvan-Newman
 - 하향식(Top-Down) 군집 탐색 알고리즘
+ <img src=image/girvan.png  width=500 height = 500> 
  
-<img src=image/girvan.png  width=500 height = 500> 
 1) 전체 그래프에서 시작합니다
 2) `매개 중심성`이 높은 순서로 간선을 제거하면서, 군집성을 변화를 기록합니다- `매개중심성`: 간선이 정점 간 최단 경로에 놓이는 횟수
 3) 군집성이 가장 커지는 상황을 복원합니다
