@@ -1,6 +1,6 @@
 ## 군집 탐색 Community Detection
 - 배치 모형(Configuration Model)
-<img src=image/Configuration.png width=500 height = 500> 
+<img src=image/Configuration.png width=700 height = 300> 
 1. 연결성을 보존한 상태에서
 2. 간선들을 무작위로 재배치하여 얻은 그래프
 
