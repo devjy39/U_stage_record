@@ -1,6 +1,6 @@
 ## 군집 탐색 Community Detection
 - 배치 모형(Configuration Model)
-<img src=image/Configuration.png width=700 height = 300> 
+<img src=image/Configuration.png width=600 height = 200> 
 1. 연결성을 보존한 상태에서
 2. 간선들을 무작위로 재배치하여 얻은 그래프
 
@@ -20,7 +20,7 @@
 3) 군집성이 가장 커지는 상황을 복원합니다
 4) 이 때, 서로 연결된 정점들, 즉 연결 요소를 하나의 군집으로 간주합니다
 즉, 전체 그래프에서 시작해서 점점 작은 단위를 검색하는 하향식(Top-Down) 방법입니다
-<img src=image/girvan.png>
+<img src=image/girvan.png  width=500 height = 500>
  
 <img src=image/newman.PNG>
  
