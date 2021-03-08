@@ -37,6 +37,6 @@
 2. 학습된 모델로 300M의 레이블이 없는 데이터를 예측 -> pseudo-labeled data
 3. 두 데이터셋과 RandAugment를 적용한 추가 데이터까지 합친 방대한 데이터셋을 이용해 Student model을 학습.
 4. Teacher Model <- Student Model  : Teacher Model을 없애고 Student model로 대체
-5. 더 크고 새로운 Student Model 생성 후 3번처럼 학습. -> Knowledge distillation과 반대로 student model이 점점 커지게 된다.
+5. 더 크고 새로운 Student Model 생성 후 3번처럼 학습. -> Knowledge distillation과 반대로 student model이 점점 커지게 된다.<br/>
 위 과정 반복 
 
