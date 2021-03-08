@@ -29,7 +29,7 @@
 3. 두 데이터셋을 합쳐서 다시 모델 학습
 
 ## Self-training
-- Augmentation + Teacher-Studentnetworks + semi-supervisedlearning
+- Augmentation + Teacher-Student networks + semi-supervised learning
 - 2019년도에 image-Net에서 가장 압도적인 성능을 보여준 모델.
 <img src=image/selft.PNG>
  
