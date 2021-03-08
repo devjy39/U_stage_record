@@ -30,7 +30,7 @@
 
 ## Self-training
 - Augmentation + Teacher-Studentnetworks + semi-supervisedlearning
-- 2019년도에 image Net에서 가장 압도적인 성능을 보여준 모델.
+- 2019년도에 image-Net에서 가장 압도적인 성능을 보여준 모델.
 <img src=image/selft.PNG>
  
 1. 1M의 레이블링된 데이터로 Teacher model 학습.
