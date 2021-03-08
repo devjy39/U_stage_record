@@ -11,7 +11,7 @@
 - 기존의 Convolution Layers는 Low한 Learning rate
 - 새로 교체된 Fully Connected Layers는 High한 Learning rate를 적용하여 학습한다.
 
-## Knowledge distillation
+## Knowledge distillation(증류)
 <img src=image/KD.PNG>
  
 - 미리 잘 학습된 큰 네트워크(Teacher network) 의 지식을 실제로 사용하고자 하는 작은 네트워크(Student network) 에게 전달하는 것
