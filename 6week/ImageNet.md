@@ -12,14 +12,14 @@
 ## EfficientNet
 - scaling 방법을 모두 적절히 사용하여 성능을 높임.
 - 압도적인 성능을 보여줬음.
-<img src=image/efficientnet.png>
+<img src=image/efficientnet.PNG>
  
 # Fully Convolutional Networks(FCN)
 - 호환성이 높은 구조 -> 기존의 fcl를 Fully conv layer인  1x1conv로 바꾸면 구현가능
 - Fullyconnected layer를 Fullyconvolutional layer by 1x1convolutions로 변경
 - single feature vector를 convolutional feature map vector수 만큼 늘림
 
-<img src=image/FCN.png>
+<img src=image/FCN.PNG>
  
 - N개의 채널을 m개의 필터 개수만큼 줄임
 
@@ -32,7 +32,7 @@
 
 ## Dilated convolution
 - 파라미터 수는 늘어나지 않고, receptive field를 늘리기 위한 방법
-<img src=image/dilated.png>
+<img src=image/dilated.PNG>
 
 ## Depthwise separable convolution
 - 연산량을 줄이기 위해 convoultion 과정을 부분화 함
