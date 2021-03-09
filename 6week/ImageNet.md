@@ -1,7 +1,7 @@
 ## GoogLeNet의 Auxiliary classifier
 - googlenet은 1x1 convolution을 사용해 채널 수를 줄여 파라미터를 줄이는 방법을 사용하였다.
 - 네트워크 중간중간에 auxiliary classifiers로 grad를 넣어 vanish grad를 해결 함.
-<img src=image/Auxiliary.png width=500>
+<img src=image/Auxiliary.png width=600>
  
 - 학습중에 사용하고 테스트할 땐 제거
 
