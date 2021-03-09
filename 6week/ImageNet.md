@@ -32,10 +32,10 @@
 
 ## Dilated convolution
 - 파라미터 수는 늘어나지 않고, receptive field를 늘리기 위한 방법
-<img src=image/dilated.PNG>
+<img src=image/dilated.png>
 
 ## Depthwise separable convolution
 - 연산량을 줄이기 위해 convoultion 과정을 부분화 함
-<img src=image/depthwise.png>
+<img src=image/depthwise.PNG>
  
 - 가장 높은 수의 지수가 하나 줄어들어서 연산량 감소
