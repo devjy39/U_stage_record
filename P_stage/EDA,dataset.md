@@ -3,13 +3,13 @@
 ## 나이, 성별
 - 여성이 약 600명정도 더 많음
 - 나이 18~ 60세로 중앙값보다 바깥쪽으로 갈 수록 많아짐
-<img src=P_stage/image/eda1.PNG>
+<img src=image/eda1.png>
 
  
 ## 클래스별 데이터
 - 60살 데이터 자체는 적은편은 아니지만,
 - 나이 분류가 18~ 30, 30~ 60, 60으로 되어있어서 60살의 데이터가 너무 적음 argument가 필요해 보인다.
-<img src=P_stage/image/eda2.PNG>
+<img src=image/eda2.png>
 
 ## dataset
     dataset = []
